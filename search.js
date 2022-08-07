@@ -20,3 +20,18 @@ console.log(doesExistOneLine);
 
 console.log(lyrics.indexOf("kala"));
 console.log(lyrics.indexOf("Tumi"));
+
+if( lyrics.indexOf("sada") !== -1 ){
+    console.log("exists inside the string");
+}
+else{
+    console.log("can't find it");
+}
+
+//********************* */ startsWith*********************
+console.log(lyrics.startsWith("Tumi"));
+
+// *******************endsWith***********
+
+const fileName = "myBioData.pdf";
+const otherFile = "myPic.png";
